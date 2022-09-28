@@ -1,0 +1,36 @@
+public class Main {
+    public static void main(String[] args) {
+        int contador = 2;
+
+        while (contador > 2) {
+            System.out.println(contador);
+            contador = contador -1; //En vez de esto también puede usarse contador--;
+        }
+        int contador2 = 2;
+
+        do {
+            System.out.println(contador2);
+            contador2 = contador2-2;
+        }
+
+        while (contador2 >2); //La sutil diferencia entre el while y el do while es que el do while primero hace la acción
+
+
+
+        for (int contador3 = 1; contador3 <= 10; contador3 = contador3+1) {
+            System.out.println(contador3); /*Primero imprime, y después incrementa*/
+        }
+
+        int valores[] = { 10, 20, 30, 40, 50};
+
+        for (int i = 0; i< valores.length; i++) {
+            System.out.println(valores[i]);
+        }
+        /*He declarado una variable i=0,y mientras que los valores de mi variable i sean menores que la
+           longitud de mi array(que es 5), imprimo e incremento mi valor de i */
+
+    }
+}
+
+
+
